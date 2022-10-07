@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сайт — резюме</title>
+  <meta name="description" content="Резюме Евгения Гурова">
+  <meta name="keywords" content="html, css, cv, resume">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="avatar.jpg" alt="Avatar" width="200">
+      <div>
+        <h1>Евгений Гуров</h1>
+
+        <p>Я учусь на <strong>четвером</strong> курсе политехнического колледжа по специальности <strong>"Информационные
+            системы и программирование"</strong></p>
+
+        <p>Я люблю писать код на <em>JavaScript</em></p>
+
+        <p>
+          <strong>Список социальных сетей</strong>
+        </p>
+        <a href="https://vk.com/id175747978" target="_blank">ВКонтакте</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Мои хобби</h2>
+      <ol>
+        <li>Программировать</li>
+        <li>Играть в компьютерные игры</li>
+        <li>Кулинария</li>
+      </ol>
+    </div>
+  
+    <div class="card">
+      <h2>Связаться со мной</h2>
+      <form>
+        <div class="form-items">
+          <div class="form-item">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя">
+          </div>
+          <div class="form-item">
+            <label for="email">Ваш email:</label>
+            <input type="text" id="email" placeholder="Введите email">
+          </div>
+        </div>
+        <div class="form-item">
+          <label for="message">Ваше сообщение:</label>
+          <div>
+            <textarea name="message" id="message" placeholder="Введите сообщение..."></textarea>
+          </div>
+        </div>
+        <div>
+          <input type="submit" value="Отправить!" class="btn">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
